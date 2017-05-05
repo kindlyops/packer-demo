@@ -1,0 +1,5 @@
+.DS_Store
+.kitchen
+vagrant-*.box
+.vagrant
+

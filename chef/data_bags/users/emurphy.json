@@ -1,0 +1,8 @@
+{
+  "id"       : "emurphy",
+  "comment"  : "Hello from Kindly Ops",
+  "groups"   : [ "sysadmin" ],
+  "ssh_keys" : [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+GTFfCtM5+VHWcEXi9jGYkvlZptTLs0OphiHZMyHzhVB+uAUflnJI1xWPWboc9alUWFxKfw4G1tVIWGZnDh6ZH4F1JW7IDjICO8hDyOVe5ebixdudmEObM4EIj2/QuK+/D+4hUULQZ9fg5p3KYRBxmQfprjCQ1Y2UAXLE5h2RkYKKhKFTOBwZ/Nbo+P3K3HCJFj9ogLrvlvUyTGrC9DxyiD8oFudB9FndpUkfNuMw5Agk7kjF82qdMs43opbMcJYhgIVxIzCD6cZCLOnMhJsL7jd2JG5zd8JW81H9c0HdBcj7WmWuiGeTvOahtvre5yheKSJ32AeOzASxFKoSuWYf8iw9mm3/4v9PkoxSlYf2bhYxi0zYiC6RkyToFUvOKftr2GeyBNc23FpUfxI0YJqaP8eOwE3h549ZJEcqFAMWZ3PJ+K6UxwAQjJZGa1H1CA2akt4gW9Epf5UxPCOno4sYoKSXN227py/Y7A4t6qI1BMrlUF1St7JZ2szlT+e0DUSOwauTYcWJXR2/cpkZ6W3cBB9tHSk62gk9LQPeBmXPxmcE2uozEG8TSsF+zKvcP1KtPxAj5atPL3RoYKIBA54rM+FvUfx7DzF5/j+tNRcVa1eYZms4AVhmaOXBHitgQeHxpZOXLkB6yOzval64hEUplTLEMfqKoHIkl+DHOP2MeQ== elliot+krypt@kindlyops.com"
+  ]
+}

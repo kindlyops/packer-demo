@@ -1,0 +1,5 @@
+source 'https://supermarket.chef.io'
+
+metadata
+cookbook 'os-hardening', '~> 2.0.1'
+cookbook 'ssh-hardening', '~> 2.1.0'
