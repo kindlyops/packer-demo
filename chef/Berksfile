@@ -1,5 +1,6 @@
 source 'https://supermarket.chef.io'
 
 metadata
-cookbook 'os-hardening', '~> 2.0.1'
+cookbook 'os-hardening', '~> 2.1.0'
 cookbook 'ssh-hardening', '~> 2.1.0'
+cookbook 'poise-python', '~> 1.6.0'

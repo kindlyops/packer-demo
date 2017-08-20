@@ -1,0 +1,11 @@
+name: default
+title: InSpec Profile
+maintainer: Kindly Ops, LLC
+copyright: Kindly Ops, LLC
+copyright_email: support@kindlyops.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+depends:
+  - name: ssh-baseline-supermarket
+    supermarket: dev-sec/ssh-baseline

@@ -26,7 +26,7 @@ provisioner:
           - 22
           - 2222
         server:
-          max_auth_tries: 4 # needed for test-kitchen to try different keys
+          max_auth_tries: 2 # needed for test-kitchen to try different keys
     public_info:
       remote_ip: '127.0.0.1'
     cloud:
@@ -45,7 +45,13 @@ provisioner:
             127.0.0.1:
               family: 'inet'
 
+verifier:
+  name: inspec
+
 suites:
   - name: default
     run_list:
       - recipe[kindlyops-base::default]
+    verifier:
+      inspec_tests:
+        - path: test/integration/default

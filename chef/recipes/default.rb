@@ -4,7 +4,6 @@ node.default['chef-client']['log_file'] = '/var/log/chef/client.log'
 default_recipes = %w(
   apt
   ntp
-  os-hardening
 )
 
 default_recipes.each do |r|
@@ -77,3 +76,4 @@ end
 
 # from dev-sec.io, harden SSH configuration
 include_recipe "ssh-hardening"
+include_recipe "os-hardening"
